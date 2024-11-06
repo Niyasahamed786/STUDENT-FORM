@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gray;
+    font-family: "Mali", cursive;
+    font-weight: 200;
+    font-style: normal;
+    width: auto;
+}
+h3{
+    padding-left: 6px;
+    padding-right: 10px;
+}
+
+input{
+padding: 5px;
+padding-right: 60px;
+margin: 5px;
+}
+
+form{
+  align-items: center;
+  width: 100%;
+}
+.save{
+margin-top: 15px;
+padding: 5px;
+padding-right: 70px;
+padding-left: 60px;
+background-color: lightgreen;
+border-radius: 30px;
+cursor: pointer;
+border: none;
+font-size: 20px;
+font-weight: 200;
+transition: 0.8;
+
+}
+
+
+
+.show{
+    margin-top:20px ;
+    background-color: white;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 15px;
+    
+}
+.top{
+margin-top: 20px;
+background-color: white;
+border-radius: 6px;
+padding: 8px;
+width: 250px;
+
+}
+h1{
+margin-top: 30px;
+background-color: yellow;
+display: inline-block;
+padding: 5px;
+border-radius: 5px;
+margin-bottom: 30px;
+box-shadow: 5px 5px 5px 5px  black , 10px 10px 10px 10px yellow;
+}
+#stom{
+background-color: rgb(204, 18, 18);
+padding: 5px;
+font-size: 20px;
+font-weight: 400;
+border: none;
+font-family: "Mali", cursive;
+color: white;
+border-radius: 10px;
+width: 100%;
+
+}
+
+@media screen and (max-width:425px){
+    .top{
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 6px;
+        padding: 0px;
+        width: 250px;
+        height: 300px;
+        position: relative;
+        box-shadow:7px 7px 7px 7px  gray ;
+        
+        font-weight: 500;
+       align-items: center;
+    
+}
+   body{
+    width: 100%;
+    background-color:steelblue;
+   }
+   h1{
+    position: relative;
+    margin-bottom: 30px;
+    background-color: gray;
+    color:yellow;
+    border-radius:5px ;
+    align-items: center;
+   font-weight: bold;
+    box-shadow: 5px 5px 5px 5px  black , 10px 10px 10px 10px yellow;
+   }
+   td{
+    width: 60px;
+}
+   .show{
+    margin-top:20px ;
+    background-color: white;
+    border-radius: 6px;
+    padding: 0%;
+    width: 300px;
+    position: relative;
+   font-size: 14px;
+    align-items: center;
+   text-align: center;
+    box-shadow: 5px 5px 5px 5px  gray ;
+   font-weight: bold;
+}
+
+#stom{
+    padding: 4px;
+    border-radius: 5px;
+
+    font-size: x-large;
+
+}
+
+.save{
+    position: relative;
+    font-size: medium;
+    font-weight: 200;
+    background-color:lightgreen;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+   box-shadow: 3px 3px 3px 3px gray;
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px black;
+    border-color: black;
+    font-size: 18px;
+    padding: 10px;
+    padding-right: 15px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+}
